@@ -1,0 +1,26 @@
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+#    org.springframework.boot.autoconfigure: DEBUG
+
+spring:
+  security:
+    user:
+      password: spring
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: 0oaexw65nf3cERmZQ0h7
+            client-secret: jOJfirRZ9swqhQDll0nIGVHPU2jiqxqk_Z6neNWW
+        provider:
+          okta:
+            authorization-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/authorize
+            token-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/token
+            user-info-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/userinfo
+            jwk-set-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/keys
