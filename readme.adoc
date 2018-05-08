@@ -24,7 +24,7 @@ ngrok[https://ngrok.com/] to tunnel to localhost over the interet from Okta.
 . git clone this repo
 . sign up to Okta if you do not already have an account
 . register this application and note the client Id and client secret
-image:images/okta-app-registration.png[]
+image:images/okta-app-registration.png[alt=okta,width=640, height=480]
 . makes sure applicaton.yml is updated with the right Okta account URL, client ID and client
 secret.
 . run the application, and hit http://localhost:8080. You should be redirected to Okta login page
