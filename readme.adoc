@@ -1,7 +1,7 @@
 = Spring Security OAuth2 Client
 
 This application is to illustrate how to authenticate to a web-based application using OAuth2.
-The code is copied from Joe Grandja's sample application.
+This demo's code is based on Joe Grandja's sample application.
 
 The application authenticates using Okta. You can sign up
 for an account at https://developer.okta.com/[develoepr.okta.com] and register an application.
